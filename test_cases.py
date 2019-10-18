@@ -5,7 +5,7 @@ from glob import *
 
 state = 0
 
-for file in glob("*.*"):
+for file in glob("*.proto"):
     with open(file, "rt") as fin:
         i = 0
         isEnum = False
